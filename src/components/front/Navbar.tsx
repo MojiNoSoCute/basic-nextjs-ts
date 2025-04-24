@@ -28,6 +28,11 @@ export default function Navbar({}: Props) {
                 }>Contact</Link>
             </li>
             <li className='hover:text-gray-400'>
+                <Link href='/user' className={
+                    pathname === '/user' ? 'text-blue-700' : 'text-white'
+                }>User</Link>
+            </li>
+            <li className='hover:text-gray-400'>
                 <Link href='/Login' className={
                     pathname === '/Login' ? 'text-blue-700' : 'text-white'
                 }>Login</Link>
